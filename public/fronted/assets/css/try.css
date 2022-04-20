@@ -1,0 +1,19 @@
+.mysub:hover,
+#mymenu span:hover>.mysub {
+    /* transform: translate(0, 100); */
+    display: block;
+
+}
+
+.mysub {
+    display: none;
+    color: rgb(223, 208, 235)
+}
+
+html {
+    display: block;
+}
+
+html:focus {
+    outline: none;
+}
