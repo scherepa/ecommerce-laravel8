@@ -1,4 +1,4 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="{{url('/backend/images/pexels-artem-beliaikin-1051747-logo.jpg')}}" width="400"></a></p>
+<p align="center"><img src="public/backend/images/pexels-artem-beliaikin-1051747-logo.jpg" width="400"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
