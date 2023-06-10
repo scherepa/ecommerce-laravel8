@@ -3,6 +3,13 @@
 @section('title', 'Dashboard')
 
 @section('page_header_scripts')
+<script>
+    let brands = "{{implode(',',$brands)}}";
+    let prods = "{{json_encode($products)}}";
+    console.log(brands);
+    let qty = "{{json_encode($qtys)}}";
+    console.log(qty);
+</script>
 <!-- Charts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 <script src="{{asset('backend/assets/js/chartjs-int.js')}}"></script>
@@ -17,12 +24,13 @@
         </div>
         <div class="p-4 mb-4 rounded bg-gray-800">
             <!-- cards -->
-
+            @foreach($brands as $brand)
             <div id="cards" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 lg:gap-4 py-4">
-                <div class="p-4 bg-gray-700 text-gray-100 rounded"></div>
-                <div class="p-4 text-white bg-gray-700 text-gray-100 rounded"></div>
-                <div class="p-4 text-white bg-gray-700 text-gray-100 rounded"></div>
+                <div class="p-4 bg-gray-700 text-gray-100 rounded">{{$brand}}</div>
+                <div class="p-4 text-white bg-gray-700 text-gray-100 rounded">{{$products[$brand]->count()}}</div>
+                <div class="p-4 text-white bg-gray-700 text-gray-100 rounded">{{$products[$brand]->sum('product_qty')}}</div>
             </div>
+            @endforeach
 
             <!-- end cards -->
             <!-- charts -->
@@ -44,85 +52,43 @@
                                         Products
                                     </th>
                                     <th class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
+                                        Brand
+                                    </th>
+                                    <th class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
                                         Price
                                     </th>
                                     <th class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Deposit
+                                        Discount Price
                                     </th>
                                     <th class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Agent
-                                    </th>
-                                    <th class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Status
-                                    </th>
-                                    <th class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Action
+                                        QTY
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
+                                @foreach($brands as $brand)
+                                @foreach($products[$brand] as $prod)
                                 <tr>
                                     <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Indiana brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+                                        {{$prod->product_name_en}}
                                     </td>
                                     <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
 
-                                        Indianapolis
+                                        {{$brand}}
 
                                     </td>
                                     <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Indiana
+                                        {{$prod->selling_price}}
                                     </td>
                                     <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Indiana
+                                        {{$prod->discount_price ?? 0}}
                                     </td>
                                     <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Indiana
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Indiana
+                                        {{$prod->product_qty}}
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Ohio
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Ohio
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Ohio
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Ohio
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Ohio
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Columbus
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Michigan
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Michigan
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Michigan
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Michigan
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Michigan
-                                    </td>
-                                    <td class="rounded-lg p-2 bg-gray-800 text-gray-100 border-2 border-gray-700">
-                                        Detroit
-                                    </td>
-                                </tr>
+                                @endforeach
+                                @endforeach
                             </tbody>
                         </table>
                     </div>

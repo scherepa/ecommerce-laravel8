@@ -7,9 +7,10 @@ $(function () {
   'use strict';
 	
 // bar chart
-var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
-var yValues = [55, 49, 44, 24, 15];
-var barColors = ["red", "green","blue","orange","brown"];
+//console.log(brands);
+var xValues = brands.split(',');//["Italy", "France", "Spain", "USA", "Argentina"];
+var yValues = JSON.parse(qty);//[55, 49, 44, 24, 15];
+var barColors = ["red", "green","blue","yellow","violet"];
 
 new Chart("myChart", {
   type: "bar",
@@ -24,7 +25,7 @@ new Chart("myChart", {
     legend: {display: false},
     title: {
       display: true,
-      text: "World Wine Production 2018"
+      text: "Products In Stock"
     }
   }
 });//End of Bar Chart
@@ -42,7 +43,7 @@ new Chart("myChartpie", {
   options: {
     title: {
       display: true,
-      text: "World Wide Wine Production"
+      text: "Brands"
     }
   }
 });//End of Pie Chart

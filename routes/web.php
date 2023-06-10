@@ -25,6 +25,7 @@ use App\Http\Controllers\backend\AdminProfileController;
 use App\Http\Controllers\backend\ShippingAreaController;
 use App\Http\Controllers\frontend\UserProfileController;
 use App\Http\Controllers\backend\SubSubCategoryController;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,7 +77,21 @@ Route::middleware(['auth:sanctum,admin', 'verified', 'auth:admin'])->post('/admi
 Route::prefix('admin')->middleware(['auth:sanctum,admin', 'verified', 'auth:admin'])->group(
     function () {
         Route::get('/dashboard', function () {
-            return view('admin.index');
+            $products = DB::table('products')
+                ->where('products.product_qty', '>', 0)
+                ->join('brands', 'brands.id', '=', 'products.brand_id')
+                ->select('products.*', 'brands.name_en as brand')
+                ->get()
+                ->groupBy('brand');
+            $brands = [];
+            $qtys = [];
+            $i = 0;
+            foreach ($products as $key => $prod) {
+                $brands[] = $key;
+                $qtys[] = $prod->sum('product_qty');
+            }
+            //dd($qtys);
+            return view('admin.index', ['products' => $products, 'brands' => $brands, 'qtys' => $qtys]);
         })->name('admin.dashboard');
 
         /* Brands routes */
