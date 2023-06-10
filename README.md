@@ -8,7 +8,7 @@ Market App based on Laravel
 
 Application users fortify for authentication. It has 2 langueges to choose from: english and hebrew. What user can do:
 
-- Sign in.
+- Sign in/up.<p align="center"><img src="public/images/ecommerce_images/login.png" width="400" height="100"></p>
 - Add/remove products to wishlist.
 - Add/remove products to chart.
 - Choose languege.
