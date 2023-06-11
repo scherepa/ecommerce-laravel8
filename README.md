@@ -10,17 +10,34 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 
 - Sign in/up.<p align="left"><img src="public/images/ecommerce_images/login.png" width="150" height="100"></p>
 - Add/remove products to wishlist.<p align="left"><img src="public/images/ecommerce_images/wishlist.png" width="150" height="100"></p>
-- Add/remove products to chart.Choose/edit chosen products qty, color, size(according to product properties).Use coupon.<p align="left"><img src="public/images/ecommerce_images/add2chart.png" width="150" height="100"><img src="public/images/ecommerce_images/myChart.png" width="150" height="100"></p>
+- Add/remove products to chart.Choose/edit chosen products qty, color, size(according to product properties).Use coupon.<p align="left"><img src="public/images/ecommerce_images/add2chart.png" width="150" height="100"><img src="public/images/ecommerce_images/myChart.png" width="150" height="100"><img src="public/images/ecommerce_images/applied_coupon.png" width="150" height="100"></p>
 - Choose languege(english/hebrew).
-- Use stripe for payments.<p align="left"><img src="public/images/ecommerce_images/start_checkout.png" width="150" height="100"><img src="public/images/ecommerce_images/test_stripe.png" width="150" height="100"><img src="public/images/ecommerce_images/stripe_checkout.png" width="150" height="100"></p>
-- Retreview orders details.
+- Use stripe for payments.<p align="left"><img src="public/images/ecommerce_images/start_checkout.png" width="150" height="100"><img src="public/images/ecommerce_images/stripe_checkout.png" width="150" height="100"></p>
+- Retreview orders details.<p align="left"><img src="public/images/ecommerce_images/order_recieved_notification.png" width="150" height="100"><img src="public/images/ecommerce_images/order_view.png" width="150" height="100"></p>
 - Update profile.<p align="left"><img src="public/images/ecommerce_images/user_profile.png" width="150" height="100"><img src="public/images/ecommerce_images/user_dashboard.png" width="150" height="100"></p>
+- Get in touch with support.<p align="left"><img src="public/images/ecommerce_images/support.png" width="150" height="100"></p>
+
+## Layout
 
 ### Header
 
 <p align="center">
 <img src="public/images/ecommerce_images/header.png" width="400" height="100">
 <img src="public/images/ecommerce_images/hebrew_header.png" width="400" height="100">
+</p>
+
+### Footer
+
+<p align="center">
+<img src="public/images/ecommerce_images/footer.png" width="400" height="100">
+<img src="public/images/ecommerce_images/hebrew_footer.png" width="400" height="100">
+</p>
+
+### Single
+
+<p align="center">
+<img src="public/images/ecommerce_images/single_product.png" width="400" height="100">
+<img src="public/images/ecommerce_images/hebrew_single.png" width="400" height="100">
 </p>
 
 ## Learning Laravel
