@@ -17,7 +17,6 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 - Update profile.<p align="left"><img src="public/images/ecommerce_images/user_profile.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/user_dashboard.png" width="150" height="100"></p>
 - Get in touch with support.<p align="left"><img src="public/images/ecommerce_images/support.png" width="150" height="100"></p>
 
----
 
 
 ## Layout
@@ -50,7 +49,9 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 <img src="public/images/ecommerce_images/slider.png" width="150" height="100"><span>
 </p>
 
+
 ---
+
 
 ## About Admin Side
 
@@ -85,6 +86,7 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 
 ---
 
+
 ## Admin Controls
 
 > Admin has different dashboard and profile managing
@@ -97,7 +99,9 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 <img src="public/images/ecommerce_images/admin_profile.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
 </p>
 
+
 ---
+
 
 ## Future updates
 
