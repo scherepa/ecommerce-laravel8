@@ -36,6 +36,7 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 ### Single
 
 <p align="center">
+# ![single product view](public/images/ecommerce_images/single_product.png.png)
 <img src="public/images/ecommerce_images/single_product.png" width="400" height="100">
 <img src="public/images/ecommerce_images/hebrew_single.png" width="400" height="100">
 </p>
