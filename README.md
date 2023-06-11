@@ -9,10 +9,10 @@ Market App based on Laravel
 Application users fortify for authentication. It has 2 langueges to choose from: english and hebrew. What user can do:
 
 - Sign in/up.<p align="left"><img src="public/images/ecommerce_images/login.png" width="150" height="100"></p>
-- Add/remove products to wishlist.<p align="left"><img src="public/images/ecommerce_images/wishlist.png" width="150" height="100"></p>
-- Add/remove products to chart.Choose/edit chosen products qty, color, size(according to product properties).Use coupon.<p align="left"><img src="public/images/ecommerce_images/add2chart.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/myChart.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/applied_coupon.png" width="150" height="100"></p>
+- Add/remove products to wishlist.<p align="left"><img src="public/images/ecommerce_images/wishlist.png" width="300" height="100"></p>
+- Add/remove products to chart.Choose/edit chosen products qty, color, size(according to product properties).Use coupon.<p align="left"><img src="public/images/ecommerce_images/add2chart.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/myChart.png" width="300" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/applied_coupon.png" width="300" height="100"></p>
 - Choose languege(english/hebrew).
-- Use stripe for payments.<p align="left"><img src="public/images/ecommerce_images/start_checkout.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/stripe_checkout.png" width="150" height="100"></p>
+- Use stripe for payments.<p align="left"><img src="public/images/ecommerce_images/start_checkout.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/stripe_checkout.png" width="300" height="100"></p>
 - Retreview orders details.<p align="left"><img src="public/images/ecommerce_images/order_recieved_notification.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/order_view.png" width="150" height="100"></p>
 - Update profile.<p align="left"><img src="public/images/ecommerce_images/user_profile.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/user_dashboard.png" width="150" height="100"></p>
 - Get in touch with support.<p align="left"><img src="public/images/ecommerce_images/support.png" width="150" height="100"></p>
