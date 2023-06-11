@@ -28,16 +28,12 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 <img src="public/images/ecommerce_images/hebrew_header.png" width="400" height="100">
 </p>
 
----
-
 ### Footer
 
 <p align="center">
 <img src="public/images/ecommerce_images/footer.png" width="400" height="100"><span>&nbsp; &nbsp;</span>
 <img src="public/images/ecommerce_images/hebrew_footer.png" width="400" height="100">
 </p>
-
----
 
 ### Single Product
 
@@ -46,7 +42,6 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 <img src="public/images/ecommerce_images/hebrew_single.png" width="150" height="100">
 </p>
 
----
 
 ### Slider
 
@@ -65,7 +60,8 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 > Admin control Brands, Categories, Sub-Categories, Sub-Sub-Categories, Products, Slider, Coupons, Discounts, Shipping.
 >
 >> Using ajax and livewire not to reload page.
->> For UI using fa-fa icons and google icons
+>> For UI using fa-fa icons and google icons.
+>> Editing or adding new product with multi image upload and preview before uploading.
 
 <p align="center">
 <img src="public/images/ecommerce_images/all_brands.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
@@ -99,3 +95,17 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 <img src="public/images/ecommerce_images/admin_dashboard.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
 <img src="public/images/ecommerce_images/admin_profile.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
 </p>
+
+---
+
+## Future updates
+
+- Elastic Search
+- Upgrade to php 8 and Laravel10
+- Tracking Order
+- Api for bulk uploading products
+- Scheduled Command for notifications
+- Cancel order and refund purchase
+- Change theme dark/light as default
+
+
