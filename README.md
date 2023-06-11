@@ -17,7 +17,8 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 - Update profile.<p align="left"><img src="public/images/ecommerce_images/user_profile.png" width="150" height="100"><span>&nbsp; &nbsp;</span><img src="public/images/ecommerce_images/user_dashboard.png" width="150" height="100"></p>
 - Get in touch with support.<p align="left"><img src="public/images/ecommerce_images/support.png" width="150" height="100"></p>
 
----<br><br>
+---
+
 
 ## Layout
 
