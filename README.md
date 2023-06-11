@@ -50,7 +50,6 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 </p>
 
 
----
 
 
 ## About Admin Side
@@ -84,7 +83,6 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 <img src="public/images/ecommerce_images/sub_category.png" width="150" height="100">&nbsp; &nbsp;
 </p>
 
----
 
 
 ## Admin Controls
@@ -100,7 +98,6 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 </p>
 
 
----
 
 
 ## Future updates
