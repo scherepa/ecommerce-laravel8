@@ -1,4 +1,4 @@
-<p align="center"><img src="public/backend/images/pexels-artem-beliaikin-1051747-logo.jpg" width="400"></p>
+<p align="center"><img src="public/backend/images/pexels-artem-beliaikin-1051747-logo.jpg" width="50">E-commerce</p>
 
 <p align="center">
 Market App based on Laravel
