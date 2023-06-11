@@ -10,7 +10,7 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 
 - Sign in/up.<p align="center"><img src="public/images/ecommerce_images/login.png" width="150" height="100"></p>
 - Add/remove products to wishlist.
-- Add/remove products to chart.
+- Add/remove products to chart.<p align="center"><img src="public/images/ecommerce_images/add2chart.png" width="150" height="100"></p>
 - Choose languege.
 - Use coupon.
 - Use stripe for payments.
