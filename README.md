@@ -56,22 +56,39 @@ Application users fortify for authentication. It has 2 langueges to choose from:
 >
 > Admin control Brands, Categories, Sub-Categories, Sub-Sub-Categories, Products, Slider, Coupons, Discounts, Shipping.
 >
->> Using ajax and livewire.
+>> Using ajax and livewire not to reload page.
+>> For UI using fa-fa icons and google icons
 
 <p align="center">
 <img src="public/images/ecommerce_images/all_brands.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
-<img src="public/images/ecommerce_images/all_categories.png" width="150" height="100">
+<img src="public/images/ecommerce_images/all_categories.png" width="150" height="100">&nbsp; &nbsp;
 <img src="public/images/ecommerce_images/all_coupons.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
-<img src="public/images/ecommerce_images/all_orders.png" width="150" height="100">
+<img src="public/images/ecommerce_images/all_orders.png" width="150" height="100">&nbsp; &nbsp;
 <img src="public/images/ecommerce_images/all_products.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
-<img src="public/images/ecommerce_images/edit_sub_sub.png" width="150" height="100">
+<img src="public/images/ecommerce_images/edit_sub_sub.png" width="150" height="100">&nbsp; &nbsp;
 <img src="public/images/ecommerce_images/new_coupon.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
-<img src="public/images/ecommerce_images/new_product.png" width="150" height="100">
+<img src="public/images/ecommerce_images/new_product.png" width="150" height="100">&nbsp; &nbsp;
 <img src="public/images/ecommerce_images/new_slider_item.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
-<img src="public/images/ecommerce_images/slider_info.png" width="150" height="100">
+<img src="public/images/ecommerce_images/slider_info.png" width="150" height="100">&nbsp; &nbsp;
 <img src="public/images/ecommerce_images/new_sub_sub_category.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
-<img src="public/images/ecommerce_images/all_categories.png" width="150" height="100">
+<img src="public/images/ecommerce_images/sub_category.png" width="150" height="100">&nbsp; &nbsp;
+<img src="public/images/ecommerce_images/shipping_devisions.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
+<img src="public/images/ecommerce_images/shipping_districts.png" width="150" height="100">&nbsp; &nbsp;
+<img src="public/images/ecommerce_images/shipping_states.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
+<img src="public/images/ecommerce_images/sub_category.png" width="150" height="100">&nbsp; &nbsp;
 </p>
+
+> Admin has different dashboard and profile managing
+>
+>> Using charts to retreview products in stock, no option to sign up, added via seeder.
+>> Side nav to make it more friendly
+
+<p align="center">
+<img src="public/images/ecommerce_images/admin_dashboard.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
+<img src="public/images/ecommerce_images/admin_profile.png" width="150" height="100"><span>&nbsp; &nbsp;</span>
+</p>
+
+
 
 
 
